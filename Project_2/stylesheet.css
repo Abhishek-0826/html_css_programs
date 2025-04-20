@@ -1,0 +1,303 @@
+
+*{
+padding: 0%;
+margin: 0%;
+}
+body{
+    background-color:#14baaf
+}
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    border: 5px solid black;
+    padding: 3rem;
+}
+.nav-bar{
+ height: 6rem;
+ /* border: 5px solid red; */
+ display: flex;
+ margin: 1rem;
+}
+.logo{
+ /* border: 5px solid rgb(0, 255, 60); */
+    height: 4rem;
+    width: 6rem;
+    display: flex;
+    margin-left: 2rem;
+}
+.nav{
+    /* border: 5px solid rgb(0, 38, 255); */
+     width:40rem;
+     margin-left:24rem ;
+   }
+ul{
+    list-style:none ;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    font-size: x-large;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.black{
+    color: black;
+}
+.nav-bar-button{
+width: 15rem;
+/* border: 5px solid rgb(255, 0, 208); */
+margin-left: 4rem;
+display: flex;
+}
+.login{
+background-color: white;
+border: none;
+width: 5rem;
+height: 2rem;
+padding: 5px;
+font-size: medium;
+border-radius: 40% 40% 40% 40%;
+
+}
+.sign-up{
+    background-color: gray;
+border:none;
+width: 7rem;
+padding: 5px;
+margin-left: 1rem;
+height: 2rem;
+border-radius: 40% 40% 40% 40%;
+}
+.intro{
+    height: 25rem;
+    width: 30rem;
+    /* border: 5px solid black; */
+    margin-top: 3rem;
+    margin-left: 2rem;
+
+
+    
+}
+#studying{
+    color: rgba(247, 154, 4, 0.809);
+    margin-right: 10px;
+    font-size: xxx-large;
+}
+.Online{
+    color: white;
+    font-size: xxx-large;
+
+}
+.Heading{
+    display: flex;
+    margin-bottom: 4rem;
+}
+#TOTC{
+    color: rgb(255, 255, 255);
+    margin-top: -2rem;
+    font-size: large;
+}
+#Join-for-free{
+    border: 2px solid black;
+border-radius: 40% 40% 40% 40%;
+    padding: 10px;
+    background-color: #14e4d6;
+    margin-top: 1rem; 
+    /* font-size: large; */
+}
+
+.intro-button{
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: -1rem;
+}
+#play{
+    height: 6rem;                                                               
+    width: 6rem;
+    margin-top: 2rem;
+}
+
+.image{
+    margin-right: 9rem;
+}
+#girl{
+    height: 100%;
+    width: 100%;
+    margin-right: 5rem;
+}
+/* second page  */
+.second-page{
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid black; */
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.numbers{
+    height: 13vh;
+    width: 80vw;
+    /* border: 5px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.introduction{
+    height: 27vh;
+    width: 35vw;
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    text-align: center;
+}
+.intro-container{
+    height: 50vh;
+    width: 80vw;
+    /* border: 5px solid black; */
+ margin-top: 1rem;
+ display: flex;
+ justify-content: space-evenly;
+}
+.no-container{
+    height: 12vh;
+    width: 8vw;
+    /* border: 3px solid black;   */
+}
+.frame{
+    height: 10vh;
+    width: 7vw;
+  
+}
+.All-In-One{
+    color: #2F327D;
+    font-size: large;
+}
+.Cloud-Software{
+    color: #00CBB8;
+}
+.para{
+    color: grey;
+    margin: 2rem;
+}
+.marketing{
+    height: 40vh;
+    width: 20vw;
+    /* border: 3px solid black;   */
+    border-radius: 5%;
+    box-shadow: 1px 1px 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sign{
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    margin-top: -3rem;
+    /* margin-left: 6rem; */
+}
+.service{
+    margin-top: 3rem;
+}
+/* Third page */
+.third-page{
+    height: 60vh;
+    width: 100vw;
+    background-color: #252641;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left{
+height: 18vh;
+width: 20vw;
+/* border: 3px solid red; */
+}
+.right{
+    height: 18vh;
+    width: 20vw;
+    /* border: 3px solid red; */
+}
+.header-container{
+    height: 15vh;
+width: 20vw;
+/* border: 3px solid red; */
+display: flex;
+justify-content: center;
+margin-top: 3rem;
+}
+.Virtual{
+    color:#FFFFFF;
+    font-size: 23px;
+}
+.follow{
+    height: 8vh;
+    width: 30vw;
+/* border: 3px solid red; */
+display: flex;
+}
+.Subscribe{
+    height: 8vh;
+    width: 10vw;
+    background-color: #00CBB8;
+border: 2px solid grey;
+border-radius: 40% 40% 40% 40%;
+}
+.Your-Email{
+    height: 8vh;
+    width: 20vw;
+    background-color:#252641;
+border: 2px solid grey;
+border-radius: 30% 
+}
+#Newsletter{
+color:#83839A;
+margin-bottom: 1rem;
+}
+.text-1{
+    color: #83839A;
+    margin-left: -14rem;
+}
+.text-2{
+    color:#FFFFFF;
+}
+.text-3{ 
+    color: #83839A;
+}
+.footer{
+    height: 3vh;
+    width: 30vw;
+/* border: 2px solid rgb(17, 225, 14); */
+display: flex;
+justify-content: center;
+gap: 1rem;
+margin-top: 4rem;  
+}
+.Careers{
+    border-right: 3px solid grey;
+    padding-right: 1rem;
+}
+.Policy{
+    border-right: 3px solid grey;
+    padding-right: 1rem;
+}
+.Terms{
+    border-right: 3px solid grey;
+    padding-right: 1rem;
+}
+#Technologies{
+    color: #83839A;
+    margin-top: 1rem;
+}
+#bottom{
+    height: 3rem;
+}
